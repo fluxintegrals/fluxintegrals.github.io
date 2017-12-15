@@ -1,3 +1,2 @@
-## FLUXINTEGRALS.GITHUB.IO
-### Please wait. index.html will be uploaded shortly. 
+## Please wait. index.html will be uploaded shortly. 
 
