@@ -47,14 +47,14 @@
 </style>
 
 		<body>
-		<p><a href="https://github.com/fluxintegrals/CoReg">The Project</a></p>
+		<h2><a href="https://github.com/fluxintegrals/CoReg">The Project</a></h2>
 		<p>A small correlation and linear regression model. It uses the Pearson correlation coefficient because it's what people are used to. Using the Spearman coefficient would not give the right value which people associate with in terms of the range of numbers. Having these two functions in one product is useful since they can be used hand in hand for machine learning projects. Usually, this is not the only component of an AI project, the data and values passed through an algorithm like this would likely be passed over to a neural network for further interpretation and output.</p>
  		<p>It is very easy to use, just select the size of the data sets you want to compare (I have selected two data sets for this algorithm since it is the most common). Then enter the data values themselves and it works! The algorithm gives you the actual value of regression and correlation and tells you if it is positive, negative, or no regression/correlation. The coefficients printed out are useful for you to keep note of as it may be a part of arbitrary tests for a neural network.</p>
  		<p>It's possible to modify the code for more or less data sets.</p>
  		<p>Using it is easy too, just follow these steps:</p>
- 		<code>git clone https://github.com/fluxintegrals/coreg</code>
- 		<code>g++ /Users/Home/downloads/coreg -o</code>
- 		<code>./a.out</code>
+		<p><code>git clone https://github.com/fluxintegrals/coreg</code></p>
+		<p><code>g++ /Users/Home/downloads/coreg -o</code></p>
+		<p><code>./a.out</code></p>
 
  		<p>Looking at the code itself, you could see I approached the linear regression model in an weird way. I manily just manipulated the vector values to find relationships using the numeric and array lib in C++. The correlation model, however, was pretty conventional. Using array-lib-like functions in the code helped more with the vectors. Remember vectors are just dynamic arrays with no fixed size. So using similar array library functions on them makes sense. I am, at the time, new to C++. So the bad practices and the messy input method is expected.</p>
  		<p>The really badly coded input method was the only thing I could up with at the time, I will spend time cleaning it up. For now, it works on the user's side but it's not optimised, which is very important.</p>
